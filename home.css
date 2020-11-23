@@ -213,8 +213,8 @@ html::-webkit-scrollbar { /* WebKit */
 }
 
 .contentelement1{
-	top: 260px;
-	left: 210px;
+	top: 140px;
+	left: 1040px;
 	width: 500px;
 	height: 300px;
 }
@@ -286,4 +286,15 @@ html::-webkit-scrollbar { /* WebKit */
 .center-elem{
 	margin:0 auto;
 	width:100px;
+}
+
+.slide {
+  scroll-snap-align: start;
+}
+
+.slide-container {
+	max-height: 100vh;
+	scroll-snap-type: mandatory;
+	scroll-snap-points-y: repeat(3rem);
+  	scroll-snap-type: y mandatory;
 }
